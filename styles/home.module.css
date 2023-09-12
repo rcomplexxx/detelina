@@ -114,6 +114,10 @@
   cursor: pointer;
 }
 
+.markedButton{
+  background-color: #1c1f25 !important; 
+}
+
 .miniStoryTitleDiv h1{
   margin: 0 12px;
 }

@@ -103,8 +103,8 @@ export default function HomePage ()  {
      <div className={styles.storyDiv}>
       <div  className={styles.miniStoryDiv}>
         <div className={styles.miniStoryTitleDiv}>
-          <button onClick={()=>{setShowContent('story')}}>O nama</button> <button  onClick={()=>{setShowContent('contact')}}>Postavite nam pitanje</button> 
-          <button   onClick={()=>{setShowContent('location')}}>Informacije</button>
+          <button onClick={()=>{setShowContent('story')}} className={showContent==='story' ?styles.markedButton:""}>O nama</button> <button className={showContent==='contact' ?styles.markedButton:""}  onClick={()=>{setShowContent('contact')}}>Postavite nam pitanje</button> 
+          <button  className={showContent==='location' ?styles.markedButton:""}  onClick={()=>{setShowContent('location')}}>Informacije</button>
           </div>
 
 {showContent==='story' && 
