@@ -1,0 +1,204 @@
+.container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero {
+    background-image: url('/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .heroContent {
+    text-align: center;
+  }
+  
+  .featuredProducts {
+    margin: 60px 0;
+    /* Add styles for the featured products carousel or grid */
+  }
+  
+  .testimonials {
+    margin: 60px 0;
+    /* Add styles for the testimonials section */
+  }
+
+  .categoryName{
+    margin: var(--size-4) 0;
+    align-self: center;
+    justify-self: center;
+    color:black;
+  }
+
+  .nasiProizvodiTitle{
+    margin-bottom: 16px;
+  }
+
+  .nasiProizvodiDiv {
+    
+    margin-top: var(--size-4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    user-select: none;
+  }
+
+  .nasiProizvodiDiv div{
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .categoryDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.categoryPhoto{
+  position: relative;
+  height: var(--size-11);
+  width: var(--size-11);
+  background-color: green;
+  color: black;
+  
+}
+
+.storyDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: var(--size-15);
+  width:100%;
+  background-color: rgb(43, 37, 37);
+}
+
+.miniStoryDiv{
+  position: relative;
+  width: 50%;
+  padding : var(--size-3);
+}
+
+.miniStoryTitleDiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  
+
+}
+
+.miniStoryTitleDiv button{
+ background-color: #3a3d3a;
+  padding: 4px 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin: 0 12px;
+  border: none;
+  font-size: var(--font-size-7);
+  font-weight: 500;
+}
+
+.miniStoryTitleDiv button:hover{
+  background-color: rgb(28, 28, 44);
+  cursor: pointer;
+}
+
+.miniStoryTitleDiv h1{
+  margin: 0 12px;
+}
+.miniStoryTitleDiv h1:hover{
+  cursor: pointer;
+}
+
+
+.miniStoryText{
+  margin-left: 12px;
+  font-size: var(--font-size-4);
+}
+
+
+.black_button {
+  margin-top: var(--size-5);
+  margin-bottom: 24px;
+  background-color: rgb(7, 6, 6);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.black_button:hover {
+  background-color: #333; /* Darken the color on hover */
+}
+
+
+
+
+.contactInfoDiv{
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: var(--size-5);
+  margin-top: var(--size-3);
+  padding-left:  var(--size-2);
+  
+}
+
+.contactInput{
+  width: calc(100% - var(--size-3));
+  box-sizing: border-box;
+  
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  
+  box-sizing: border-box;
+}
+
+
+.messageField{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: var(--size-5);
+  padding-left:  var(--size-2);
+  padding-right:  var(--size-2);
+  box-sizing: border-box;
+}
+
+.sendButton{
+  width: var(--size-9);
+  height: var(--size-6);
+  border: none;
+  border-radius: 12px;
+  color:white;
+  background-color: #202020;
+  margin-left: var(--size-2);
+  margin-right: var(--size-2);
+  margin-bottom: var(--size-5);
+}
+
+.sendButton:hover{
+  cursor: pointer;
+}

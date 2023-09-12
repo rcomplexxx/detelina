@@ -1,0 +1,49 @@
+/* Navbar.module.css */
+.navbar {
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #283c61;
+    padding: 1rem;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    height: 48px;
+    width: 48px;
+  position: relative;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .title{
+    margin-left: 64px;
+    color: #3A8B66;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-left: 1rem;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }

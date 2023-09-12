@@ -1,0 +1,52 @@
+
+
+
+.whyTitle{
+    margin-top: 24px;
+}
+
+.whyWrapper{
+    
+    position: relative;
+    
+    height: var(--size-15);
+    width: 100%;
+
+    margin-bottom: 48px;
+    
+}
+.whyBackground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/seedimg.png');
+    z-index: 1;
+   
+}
+
+.whyForeground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #305342;
+    opacity: 0.77;
+    z-index: 2;
+}
+
+.razloziDiv{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    align-self: flex-start;
+   
+}
+
+.razlogDiv{
+    
+    margin-top: 64px;
+   
+}

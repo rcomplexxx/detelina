@@ -1,0 +1,25 @@
+[
+    {
+        "id":0,
+        "name":"Zeleni caj",
+        "image": "greenTea.png",
+        "price":12
+    },
+    {
+    "id":1,
+    "name":"susamovo seme",
+    "image":"susam.png",
+    "price":42
+},
+{
+    "id":2,
+    "name":"pistaci",
+    "image":"pistaci.png",
+    "price":74
+},{
+    "id":3,
+    "name":"Orasi",
+    "image":"orasi.png",
+    "price":120
+}
+]
