@@ -22,8 +22,8 @@ const Products = ({ products, showAll }) => {
               item
               xs={12}
               sm={6}
-              md={4}
-              lg={4}
+              md={6}
+              lg={6}
             >
               <Product
                 product={product}
