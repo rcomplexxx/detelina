@@ -86,7 +86,7 @@ body {
  margin: 0;
  padding: 0;
   min-width: 100vw;
-  scrollbar-gutter: stable;
+  scrollbar-gutter: auto;
   
 
 }
@@ -167,7 +167,7 @@ a {
 @media (max-width: 980px){
 
   .componentWrapperDiv{
-    width: calc(100% - 16px);
+    width: 100%;
   }
 
 
