@@ -6,9 +6,10 @@ export default function Home({ Component, pageProps }) {
   return ( 
     <>
   <Navbar></Navbar>
-  
+  <div className={'componentWrapperDiv'}>
   <div className='componentWrapperDiv2'>
   <Component {...pageProps} />
+  </div>
   </div>
   <Footer/>
   </>

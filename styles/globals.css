@@ -82,9 +82,10 @@
 
 html,
 body {
-  align-items: center;
+ 
   display: flex;
   flex-direction: column;
+   align-items: center;
   background: linear-gradient(to bottom, #10352e, #1f6c72);
  margin: 0;
  padding: 0;
@@ -153,7 +154,13 @@ a {
   object-fit: cover;
 }
 
-
+.componentWrapperDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow:hidden
+}
 
 .componentWrapperDiv2{
  width: calc(100% - var(--size-13-5));
@@ -164,9 +171,7 @@ a {
 
 @media (max-width: 980px){
 
-  .componentWrapperDiv{
-    width: 100%;
-  }
+
 
 
   .componentWrapperDiv2{
