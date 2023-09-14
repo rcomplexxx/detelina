@@ -2,7 +2,12 @@
 
 
 .whyTitle{
+    margin: 0 12px;
     margin-top: 24px;
+}
+
+.whyTitleText{
+    margin: 0 12px;
 }
 
 .whyWrapper{
@@ -15,6 +20,20 @@
     margin-bottom: 48px;
     
 }
+
+.whyWrapper h1{
+    font-size: 28px;
+}
+
+.whyWrapper h2{
+    font-size: 24px;
+}
+
+.whyWrapper p{
+    font-size: 16px;
+}
+
+
 .whyBackground{
     position: absolute;
     height: 100%;
@@ -49,4 +68,79 @@
     
     margin-top: 64px;
    
+}
+
+@media( max-width: 960px){
+
+    .razlogDiv{
+    
+        margin-top: 48px;
+       
+    }
+
+    .whyWrapper h1{
+        font-size: 26px;
+    }
+
+
+    .whyWrapper h2{
+        font-size: 22px;
+    }
+    
+    .whyWrapper p{
+        font-size: 14px;
+    }
+}
+
+@media( max-width: 660px){
+
+    .whyWrapper h1{
+        font-size: 24px;
+    }
+
+    .razlogDiv{
+    
+        margin-top: 32px;
+       
+    }
+
+
+    .whyWrapper h2{
+        font-size: 20px;
+    }
+    
+    .whyWrapper p{
+        font-size: 13px;
+    }
+}
+
+
+@media( max-width: 560px){
+
+    .whyForeground{
+        opacity: 0.83;
+    }
+
+    .razloziDiv{
+        width: calc(100% - 64px);
+        margin-top: 16px;
+      
+       
+    }
+    
+
+    .razlogDiv{
+    
+        margin-top: 32px;
+       
+    }
+
+
+    .whyWrapper h2{
+        font-size: 20px;
+    }
+    
+    .whyWrapper p{
+        font-size: 13px;
+    }
 }

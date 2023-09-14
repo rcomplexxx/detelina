@@ -17,7 +17,7 @@ export default function ZastoDaNasPosetite () {
        
         />
         <div className={styles.whyForeground}><h1 className={styles.whyTitle}>ZAŠTO DA NAS POSETITE</h1>
-        <p>Ljubazno osoblje, otvoreno za svaku saradnju. Veliki izbor proizvoda, mogućnost naručivanja nekog proizvoda ako ga nemamo u radnji.</p>
+        <p className={styles.whyTitleText}>Ljubazno osoblje, otvoreno za svaku saradnju. Veliki izbor proizvoda, mogućnost naručivanja nekog proizvoda ako ga nemamo u radnji.</p>
         <div className={styles.razloziDiv}>
             <div className={styles.razlogDiv}>
         <h2>KVALITET I BEZBEDNOST</h2>
