@@ -31,7 +31,7 @@ export default function ZastoDaNasPosetite () {
 
         <div className={styles.razlogDiv}>
         <h2>BOGAT ASORTIMAN</h2>
-        <p>Pored velikog izbora proizvoda, svojim kupcimo dajemo mogućnost porudžbine proizvoda koji nisu trenutno na stanju.</p>
+        <p>Pored velikog izbora proizvoda, svojim kupcimo dajemo mogućnost porudžbine proizvoda koji nisu trenutno na stanjuu.</p>
         </div>
 
         </div>
