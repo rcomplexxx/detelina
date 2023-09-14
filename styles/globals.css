@@ -153,6 +153,7 @@ a {
   width: calc(100% - 16px);
   display: flex;
   justify-content: center;
+  overflow-y: overlay;
 }
 
 .componentWrapperDiv2{
