@@ -162,7 +162,6 @@ a {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  overflow-y: overlay;
 }
 
 .componentWrapperDiv2{
