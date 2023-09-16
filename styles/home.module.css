@@ -206,3 +206,10 @@
 .sendButton:hover{
   cursor: pointer;
 }
+
+
+@media (max-width: 980px){
+  .nasiProizvodiDiv div{
+    margin:0;
+  }
+}
