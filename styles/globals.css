@@ -183,6 +183,11 @@ a {
 
 @media (max-width: 980px){
 
+  .componentWrapperDiv2{
+    margin: 0;
+    width: 100vw;
+  }
+
    h1{
     font-size: 26px;
 }
@@ -197,10 +202,7 @@ a {
 }
 
 
-  .componentWrapperDiv2{
-    margin: 0;
-    width: 100%;
-  }
+ 
 }
 
 @media (max-width: 560px){
