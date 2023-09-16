@@ -212,4 +212,10 @@
   .nasiProizvodiDiv div{
     margin:0 16px;
   }
+
+  
+.storyDiv{
+  flex-direction: column;
+  align-items: center;
+}
 }
