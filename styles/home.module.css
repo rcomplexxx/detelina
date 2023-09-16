@@ -218,4 +218,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.miniStoryTitleDiv button{
+  font-size: var(--size-5);
+}
 }
