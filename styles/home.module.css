@@ -1,3 +1,12 @@
+.carouselDiv{
+  width: 100%;
+  aspect-ratio: 3;
+   background-color: #222926 ;
+
+
+}
+
+
 .container{
     width: 100%;
     max-width: 100%;
@@ -216,6 +225,12 @@
 
 
 @media (max-width: 980px){
+
+  .carouselDiv{
+    aspect-ratio: 21/9;
+  }
+
+
   .nasiProizvodiDiv {
     grid-template-columns: repeat(2, 1fr);
   }

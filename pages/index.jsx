@@ -60,7 +60,7 @@ export default function HomePage ()  {
 
   return (
     <>
-    <div style={{ width: '100%', aspectRatio:'3',  backgroundColor: '#222926' }}>
+    <div className={styles.carouselDiv}>
      <GalleryCarousel images={images} hasIndexBoard={false}  hasThumbnails={false} isAutoPlaying={true} thumbnailHeight='15%'/>
      </div>
 <div className={styles.container}>
