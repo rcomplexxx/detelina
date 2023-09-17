@@ -227,8 +227,13 @@
 
   
 .storyDiv{
+  height: auto;
   flex-direction: column;
   align-items: center;
+}
+
+.miniStoryDiv{
+  width: 100%;
 }
 
 .miniStoryTitleDiv button{
