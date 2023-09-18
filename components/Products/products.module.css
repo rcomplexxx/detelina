@@ -60,6 +60,10 @@
 
   @media (max-width: 980px){
 
+    .toolbar {
+      width: calc(100% - var(--size-9));
+    }
+
     .productGridStyle {
       margin-right: var(--size-6);
       margin-left: var(--size-6);
@@ -68,6 +72,10 @@
 
 
   @media (max-width: 680px){
+
+    .toolbar {
+      width: calc(100% - var(--size-8));
+    }
 
     .productGridStyle {
       margin-right: var(--size-5);
