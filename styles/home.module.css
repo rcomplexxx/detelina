@@ -298,4 +298,10 @@
   width: calc(100% - var(--size-7));
 }
 
+
+.sendButton{
+  margin-left: calc(var(--size-6) + var(--size-2));
+}
+
+
 }
