@@ -9,7 +9,7 @@ const Products = ({ products, showAll }) => {
 
   return (
     <div className={styles.toolbar}>
-      <h1 className={styles.title}>Omiljene namirnice kupaca</h1>
+      <h1 className={styles.title}>Izdvajamo</h1>
         <Grid
           className={styles.mainGridStyle}
           container
