@@ -83,3 +83,11 @@
       margin-left: var(--size-5);
     }
   }
+
+  @media (max-width: 560px){
+    .toolbar {
+      width: calc(100% - var(--size-6));
+    }
+  
+   
+  }
