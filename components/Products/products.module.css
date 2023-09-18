@@ -1,5 +1,5 @@
 .toolbar {
-    width: 80vw;
+    width: calc(100% - var(--size-10));
     background-color: #2d3633;
     z-index: 2;
     display: flex;
