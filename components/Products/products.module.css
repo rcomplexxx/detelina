@@ -56,3 +56,21 @@
     border-radius: var(--size-2);
     text-decoration: none;
   }
+
+
+  @media (max-width: 980px){
+
+    .productGridStyle {
+      margin-right: var(--size-6);
+      margin-left: var(--size-6);
+    }
+  }
+
+
+  @media (max-width: 680px){
+
+    .productGridStyle {
+      margin-right: var(--size-5);
+      margin-left: var(--size-5);
+    }
+  }
