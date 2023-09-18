@@ -93,9 +93,15 @@
 }
 
 .miniStoryDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   width: 50%;
   padding : var(--size-3);
+}
+.infos{
+  align-self: flex-start;
 }
 
 .miniStoryTitleDiv{
@@ -202,13 +208,14 @@
 }
 
 .sendButton{
+  align-self: flex-start;
   width: var(--size-9);
   height: var(--size-6);
   border: none;
   border-radius: 12px;
   color:white;
   background-color: #202020;
-  margin-left: var(--size-2);
+  margin-left: calc(20% + var(--size-1));
   margin-right: var(--size-2);
   margin-bottom: var(--size-5);
 }
@@ -219,8 +226,8 @@
 
 @media(max-width: 1280px){
   .nasiProizvodiDiv div{
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 
@@ -262,6 +269,10 @@
 
 .messageField{
   width: calc(100% - var(--size-10));
+}
+
+.sendButton{
+  margin-left: calc(var(--size-8) + var(--size-2));
 }
 
 

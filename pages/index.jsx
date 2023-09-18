@@ -115,12 +115,12 @@ dušu i telo. Sa dubokim korenom u našoj zajednici, želimo vas inspirisati da 
 Vaš put ka zdravlju i kvalitetnom životu počinje ovde, uz podršku Zdravog Zalogaja Leskovac.</p>}
 
 
-{showContent==='location' && <>
+{showContent==='location' && <span className={styles.infos}>
 <p className={styles.miniStoryText}>Lokacija: Ulica Zdravih Boraca br. 34</p>
 <p className={styles.miniStoryText}>Mobilni: 066555333</p>
 <p className={styles.miniStoryText}>Email: detelinaleskovac@gmail</p>
 <p className={styles.miniStoryText}>Radno vreme: 8-5 radnim danima, 8-3 Subotom, 8-5 Nedeljom</p>
-</>}
+</span>}
 
 {showContent==='contact' &&
 
