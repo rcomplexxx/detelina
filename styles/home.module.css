@@ -108,6 +108,7 @@
 }
 
 .miniStoryTitleDiv button{
+  color: white;
  background-color: #3a3d3a;
   padding: 4px 12px;
   box-sizing: border-box;
