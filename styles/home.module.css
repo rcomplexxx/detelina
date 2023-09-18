@@ -256,10 +256,35 @@
 .miniStoryTitleDiv button{
   font-size: var(--size-5);
 }
+.contactInfoDiv{
+  width: calc(100% - var(--size-10));
+}
+
+.messageField{
+  width: calc(100% - var(--size-10));
+}
+
+
 }
 
 @media (max-width: 560px){
   .nasiProizvodiDiv div{
     margin-left: 12px;
     margin-right: 12px;
-  }}
+    
+  }
+
+ 
+}
+
+
+@media (max-width: 420px){
+.contactInfoDiv{
+  width: calc(100% - var(--size-7));
+}
+
+.messageField{
+  width: calc(100% - var(--size-7));
+}
+
+}
