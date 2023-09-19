@@ -21,7 +21,13 @@ const Navbar = () => {
   }, []);
  
 
-const smallNavContent = <span className={styles.smallMenuButton}>...</span>;
+const smallNavContent = <button className={styles.smallMenuButton}>
+  <Image
+   src='/images/menuIcon.png'
+    className={styles.smallMenuImage}
+   fill
+   />
+  </button>;
 
 const bigNavContent =   <ul className={styles.menu}>
 <li>
@@ -56,9 +62,9 @@ const bigNavContent =   <ul className={styles.menu}>
   return (
     <nav  ref={navRef} className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href="/">
+        <Link href="/" >
           <Image src='/images/logo.png'
-          
+           className={styles.smallMenuImage}
           fill/>
           <h3 className={styles.title}>Detelina</h3>
         </Link>

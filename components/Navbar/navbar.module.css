@@ -29,6 +29,7 @@
   }
   
   .menu {
+    margin-right: 46px;
     display: flex;
     list-style: none;
     padding: 0;
@@ -51,7 +52,21 @@
 
 
   .smallMenuButton{
+    position: relative;
     margin-right: 16px;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .smallMenuButton:hover{
+    cursor: pointer;
+  }
+
+  .smallMenuImage{
+    position: absolute;
+
   }
 
 
