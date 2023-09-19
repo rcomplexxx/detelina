@@ -300,7 +300,7 @@
 
 
 .sendButton{
-  margin-left: var(--size-5);
+  margin-left: calc(var(--size-5) + var(--size-1));
 }
 
 
