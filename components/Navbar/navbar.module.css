@@ -48,6 +48,18 @@
     text-decoration: underline;
   }
 
+
+
+  .smallMenuButton{
+    margin-right: 16px;
+  }
+
+
+
+
+
+
+
   @media(max-width: 980px){
     .logo{
     
@@ -56,9 +68,14 @@
   }
 
   @media (max-width: 680px){
+
+    .title{
+      margin-left: 56px;
+    }
+
+
     .logo{
-    
-      margin-left: 2px;
+      margin-left: 0;
     }
 
   }

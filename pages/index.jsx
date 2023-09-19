@@ -127,7 +127,7 @@ Vaš put ka zdravlju i kvalitetnom životu počinje ovde, uz podršku Zdravog Za
 <>
 <div  className={styles.contactInfoDiv} >
 <div className={styles.inputGroup}>
-  <label>Name</label>
+  <label>Ime</label>
 <input id='name' className={styles.contactInput}/>
 
 </div>
@@ -142,14 +142,14 @@ Vaš put ka zdravlju i kvalitetnom životu počinje ovde, uz podršku Zdravog Za
 
 </div>
 <div className={styles.messageField}>
-<label>Message</label>
+<label>Pitanje</label>
 <textarea
     style={{  'flexGrow': '1'}}
     rows={5}
   />
   
   </div>
-  <button className={styles.sendButton}>Send</button>
+  <button className={styles.sendButton}>Posalji</button>
   </>
 }
 

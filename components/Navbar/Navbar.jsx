@@ -21,7 +21,7 @@ const Navbar = () => {
   }, []);
  
 
-const smallNavContent = '...';
+const smallNavContent = <span className={styles.smallMenuButton}>...</span>;
 
 const bigNavContent =   <ul className={styles.menu}>
 <li>
