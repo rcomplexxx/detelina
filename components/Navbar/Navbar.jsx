@@ -6,6 +6,7 @@ import {useState, useRef, useEffect } from "react";
 const Navbar = () => {
 
   const [windowWidth, setWindowWidth] = useState(0);
+  const [smallMenuOpen, setSmallMenuOpen]= useState(false);
 
 
   const navRef = useRef(null);
@@ -21,45 +22,69 @@ const Navbar = () => {
   }, []);
  
 
-const smallNavContent = <button className={styles.smallMenuButton}>
+const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>{setSmallMenuOpen(!smallMenuOpen)}}>
   <Image
    src='/images/menuIcon2.png'
     className={styles.smallMenuImage}
+    loading= 'eager'
    fill
    />
   </button>;
 
-const bigNavContent =   <ul className={styles.menu}>
-<li>
-  <Link href="/about">
+
+const smallNavLinks=<div className={styles.smallLinksMainDiv}>
+<div className={styles.smallLinksDiv}>
+
+<Link href="/about">
  Pocetna
   </Link>
-</li>
-<li>
+
   <Link href="/services">
     Proizvodi
   </Link>
-</li>
-<li>
+
   <Link href="/contact">
    O nama
   </Link>
-</li>
-<li>
+
   <Link href="/contact">
    Galerija
   </Link>
-</li>
-<li>
+
   <Link href="/contact">
    Kontakt
   </Link>
-</li>
-</ul>;
+
+</div>
+</div>
+
+const bigNavContent =   <div className={styles.menu}>
+
+  <Link href="/about">
+ Pocetna
+  </Link>
+
+  <Link href="/services">
+    Proizvodi
+  </Link>
+
+  <Link href="/contact">
+   O nama
+  </Link>
+
+  <Link href="/contact">
+   Galerija
+  </Link>
+
+  <Link href="/contact">
+   Kontakt
+  </Link>
+
+</div>;
 
 
 
-  return (
+  return (<>
     <nav  ref={navRef} className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/" >
@@ -71,6 +96,7 @@ const bigNavContent =   <ul className={styles.menu}>
       </div>
       {windowWidth<980?smallNavContent:bigNavContent}
     </nav>
+    {windowWidth<980 && smallMenuOpen && smallNavLinks}</>
   );
 };
 
