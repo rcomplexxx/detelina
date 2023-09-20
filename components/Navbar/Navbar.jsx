@@ -23,7 +23,7 @@ const Navbar = () => {
 
 const smallNavContent = <button className={styles.smallMenuButton}>
   <Image
-   src='/images/menuIcon.png'
+   src='/images/menuIcon2.png'
     className={styles.smallMenuImage}
    fill
    />
