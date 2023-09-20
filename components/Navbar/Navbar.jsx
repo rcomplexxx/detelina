@@ -35,23 +35,23 @@ const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>
 const smallNavLinks=<div className={styles.smallLinksMainDiv}>
 <div className={styles.smallLinksDiv}>
 
-<Link href="/about">
+<Link href="/about" className={styles.smallLink}>
  Pocetna
   </Link>
 
-  <Link href="/services">
+  <Link href="/services" className={styles.smallLink}>
     Proizvodi
   </Link>
 
-  <Link href="/contact">
+  <Link href="/contact" className={styles.smallLink}>
    O nama
   </Link>
 
-  <Link href="/contact">
+  <Link href="/contact" className={styles.smallLink}>
    Galerija
   </Link>
 
-  <Link href="/contact">
+  <Link href="/contact" className={styles.smallLink}>
    Kontakt
   </Link>
 
