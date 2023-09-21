@@ -303,9 +303,16 @@
 
  
 }
+@media (max-width: 480px){
+.categories{width: var(--size-14)} 
+  
+}
 
 
 @media (max-width: 420px){
+
+  .categories{width: auto; box-sizing: border-box; padding: 4px 0;} 
+
 .contactInfoDiv{
   width: calc(100% - var(--size-7));
 }
