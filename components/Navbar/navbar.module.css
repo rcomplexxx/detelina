@@ -72,11 +72,20 @@
 
   .smallLinksMainDiv{
     width: 100%;
-    padding: 8px;
     background-color: #222222;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out;
+  }
+
+  .smallLinksMainDiv.allow{
+  
+    max-height: 260px;
   }
 
   .smallLinksDiv{
+    background-color: #222222;
+    margin: 8px;
     width:100%;
     box-sizing: border-box;
     display: flex;

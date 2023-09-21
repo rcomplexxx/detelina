@@ -32,7 +32,7 @@ const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>
   </button>;
 
 
-const smallNavLinks=<div className={styles.smallLinksMainDiv}>
+const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<980 && smallMenuOpen && styles.allow}`}>
 <div className={styles.smallLinksDiv}>
 
 <Link href="/about" className={styles.smallLink}>
@@ -96,7 +96,7 @@ const bigNavContent =   <div className={styles.menu}>
       </div>
       {windowWidth<980?smallNavContent:bigNavContent}
     </nav>
-    {windowWidth<980 && smallMenuOpen && smallNavLinks}</>
+    {smallNavLinks}</>
   );
 };
 
