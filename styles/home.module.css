@@ -42,7 +42,6 @@
   }
 
   .categories{
-    width: calc(100% - var(--size-10));
     background-color: #1c1f25;
     display: flex;
     flex-direction: column;
@@ -245,14 +244,13 @@
 
 @media (max-width: 980px){
 
+  .categories{width: var(--size-15)}
+
   .carouselDiv{
     aspect-ratio: 16/9;
   }
 
 
-  .categories{
-    width: calc(100% - var(--size-9));
-  }
   .nasiProizvodiDiv {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -292,13 +290,11 @@
 
 }
 
-@media(max-width: 680px){
-  .categories{
-  width: calc(100% - var(--size-8));
-  }
-}
+
 
 @media (max-width: 560px){
+
+  .categories{width: var(--size-14-5)}
   .nasiProizvodiDiv div{
     margin-left: 12px;
     margin-right: 12px;
