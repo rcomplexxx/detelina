@@ -41,6 +41,16 @@
     /* Add styles for the testimonials section */
   }
 
+  .categories{
+    width: calc(100% - var(--size-10));
+    background-color: #1c1f25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--size-9);
+    border-radius: 4px;
+  }
+
   .categoryName{
     margin: var(--size-4) 0;
     align-self: center;
@@ -49,6 +59,7 @@
   }
 
   .nasiProizvodiTitle{
+    margin-top: 16px;
     margin-bottom: 16px;
   }
 
@@ -239,6 +250,9 @@
   }
 
 
+  .categories{
+    width: calc(100% - var(--size-9));
+  }
   .nasiProizvodiDiv {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -276,6 +290,12 @@
 }
 
 
+}
+
+@media(max-width: 680px){
+  .categories{
+  width: calc(100% - var(--size-8));
+  }
 }
 
 @media (max-width: 560px){

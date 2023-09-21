@@ -68,7 +68,7 @@ export default function HomePage ()  {
 
 <Products products={products}></Products>
 <ZastoDaNasPosetite/> 
-
+<div className={styles.categories}>
 <h1 className={styles.nasiProizvodiTitle}>Nasi proizdvodi</h1>
 <div className={styles.nasiProizvodiDiv}>
 <div className={styles.categoryDiv}><div className={styles.categoryPhoto}> <Image
@@ -97,7 +97,7 @@ export default function HomePage ()  {
           /></div><p className={styles.categoryName}>Zdravi slatkisi</p></div>
 </div>
 <button className={styles.black_button}>Shop All</button>
-
+</div>
      
 
      <div className={styles.storyDiv}>
