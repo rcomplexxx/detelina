@@ -35,7 +35,7 @@ const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>
 const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<980 && smallMenuOpen && styles.allow}`}>
 <div className={styles.smallLinksDiv}>
 
-<Link href="/home" className={styles.smallLink}>
+<Link href="/" className={styles.smallLink}>
  Pocetna
   </Link>
 
@@ -43,15 +43,15 @@ const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<9
     Proizvodi
   </Link>
 
-  <Link href="/about" className={styles.smallLink}>
+  <Link href="/o-nama" className={styles.smallLink}>
    O nama
   </Link>
 
-  <Link href="/gallery" className={styles.smallLink}>
+  <Link href="/galerija" className={styles.smallLink}>
    Galerija
   </Link>
 
-  <Link href="/contact" className={styles.smallLink}>
+  <Link href="/kontakt" className={styles.smallLink}>
    Kontakt
   </Link>
 
@@ -61,7 +61,7 @@ const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<9
 const bigNavContent =   <div className={styles.menu}>
 
 
-<Link href="/home" className={styles.smallLink}>
+<Link href="/" className={styles.smallLink}>
  Pocetna
   </Link>
 
@@ -69,15 +69,15 @@ const bigNavContent =   <div className={styles.menu}>
     Proizvodi
   </Link>
 
-  <Link href="/about" className={styles.smallLink}>
+  <Link href="/o-nama" className={styles.smallLink}>
    O nama
   </Link>
 
-  <Link href="/gallery" className={styles.smallLink}>
+  <Link href="/galerija" className={styles.smallLink}>
    Galerija
   </Link>
 
-  <Link href="/contact" className={styles.smallLink}>
+  <Link href="/kontakt" className={styles.smallLink}>
    Kontakt
   </Link>
 
