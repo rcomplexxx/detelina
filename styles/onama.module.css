@@ -46,9 +46,26 @@
   .thirdSegment{
     opacity: 0;
   transform: translateX(0);
-  animation: slideFromRight 0.5s ease forwards, bounce 0.5s 0.7s ease forwards;
-
+  animation: slideFromRight 0.7s linear forwards;
   }
+
+
+@media(max-width: 980px){
+  .mainDiv{
+    
+    flex-direction: column;
+  justify-content: flex-start;
+  }
+
+    .roundImageDiv{display: none;}
+}
+
+
+
+
+
+
+
 
 
   
@@ -89,7 +106,27 @@
       opacity: 0;
       transform: translateX(100%) scale(0.8);
     }
-    100% {
+    67% {
+      opacity: 1;
+      transform: translateX(-32px) scale(1);
+    }
+    75% {
+      opacity: 1;
+      transform: translateX(-64px) scale(1);
+    }
+    83% {
+      opacity: 1;
+      transform: translateX(-32px) scale(1);
+    }
+
+    92% {
+      opacity: 1;
+      transform: translateX(24px) scale(1);
+    }
+
+   
+
+    100%{
       opacity: 1;
       transform: translateX(0) scale(1);
     }
