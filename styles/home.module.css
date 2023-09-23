@@ -244,7 +244,7 @@
 
 @media (max-width: 980px){
 
-  .categories{width: var(--size-15); background-color: #1c1f258c;;}
+  .categories{width: var(--size-15); background-color: #1c1f258c;}
 
   .carouselDiv{
     aspect-ratio: 16/9;
@@ -294,7 +294,7 @@
 
 @media (max-width: 560px){
 
-  .categories{width: var(--size-14-5)}
+  .categories{width: var(--size-14-5);background-color: transparent;}
   .nasiProizvodiDiv div{
     margin-left: 12px;
     margin-right: 12px;
