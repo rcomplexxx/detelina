@@ -82,7 +82,11 @@
 @media(max-width: 980px){
 
 .firstSegment{
+  margin-top: 16px;
   margin-bottom: 32px;
+}
+.thirdSegment{
+  margin-bottom: 16px;
 }
 
 
