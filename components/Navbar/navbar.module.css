@@ -78,6 +78,10 @@
     transition: max-height 0.7s ease-out;
   }
 
+  .smallLinksMainDiv.fastClose{
+    transition: max-height 0s;
+  }
+
   .smallLinksMainDiv.allow{
   
     max-height: 260px;

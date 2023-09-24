@@ -6,7 +6,7 @@ import {useState, useRef, useEffect } from "react";
 const Navbar = () => {
 
   const [windowWidth, setWindowWidth] = useState(0);
-  const [smallMenuOpen, setSmallMenuOpen]= useState(false);
+  const [smallMenuOpen, setSmallMenuOpen]= useState(0);
 
 
   const navRef = useRef(null);
@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
  
 
-const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>{setSmallMenuOpen(!smallMenuOpen)}}>
+const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>{setSmallMenuOpen(smallMenuOpen===1?0:1)}}>
   <Image
    src='/images/menuIcon2.png'
     className={styles.smallMenuImage}
@@ -32,26 +32,26 @@ const smallNavContent = <button className={styles.smallMenuButton} onClick={()=>
   </button>;
 
 
-const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<980 && smallMenuOpen && styles.allow}`}>
+const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<980 && smallMenuOpen===1 && styles.allow} ${smallMenuOpen===2 && styles.fastClose}`}>
 <div className={styles.smallLinksDiv}>
 
-<Link href="/" className={styles.smallLink}>
+<Link href="/" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
  Pocetna
   </Link>
 
-  <Link href="/proizvodi" className={styles.smallLink}>
+  <Link href="/proizvodi" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
     Proizvodi
   </Link>
 
-  <Link href="/o-nama" className={styles.smallLink}>
+  <Link href="/o-nama" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
    O nama
   </Link>
 
-  <Link href="/galerija" className={styles.smallLink}>
+  <Link href="/galerija" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
    Galerija
   </Link>
 
-  <Link href="/kontakt" className={styles.smallLink}>
+  <Link href="/kontakt" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
    Kontakt
   </Link>
 
