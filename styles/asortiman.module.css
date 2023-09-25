@@ -59,6 +59,8 @@
   }
   
 .categoryPhoto{
+    overflow: hidden;
+    border-radius: 100%;
   position: relative;
   height: var(--size-11);
   width: var(--size-11);
