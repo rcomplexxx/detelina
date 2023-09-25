@@ -6,6 +6,7 @@ import Products from '@/components/Products/Products';
 import products from '@/data/products.json';
 import ZastoDaNasPosetite from '@/components/ZastoDaNasPosetite/ZastoDaNasPosetite';
 import Image from 'next/image';
+import Link from 'next/link';
 import classNames from "classnames";
 
 
@@ -96,7 +97,7 @@ export default function HomePage ()  {
             fill
           /></div><p className={styles.categoryName}>Zdravi slatkisi</p></div>
 </div>
-<button className={styles.black_button}>Shop All</button>
+<Link href='/asortiman'><button className={styles.black_button}>Shop All</button></Link>
 </div>
      
 

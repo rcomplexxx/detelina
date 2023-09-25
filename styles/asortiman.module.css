@@ -1,0 +1,109 @@
+
+
+.mainDiv{
+    min-height: calc(100vh - 240px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 4px;
+    
+}
+
+
+  .categories{
+    background-color: #1c1f258c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--size-9);
+    border-radius: 4px;
+  }
+
+  .categoryName{
+    margin: var(--size-4) 0;
+    align-self: center;
+    justify-self: center;
+    color:black;
+  }
+
+  .nasiProizvodiTitle{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .nasiProizvodiDiv {
+    
+    margin-top: var(--size-4);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+    user-select: none;
+  }
+
+  .nasiProizvodiDiv div{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .categoryDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.categoryPhoto{
+  position: relative;
+  height: var(--size-11);
+  width: var(--size-11);
+  background-color: green;
+  color: black;
+  
+}
+
+
+@media (max-width: 1180px){
+
+    .categories{width: var(--size-15); background-color: #1c1f258c;}
+
+   
+    
+      .nasiProizvodiDiv {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+      .nasiProizvodiDiv div{
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    
+  
+      
+    }
+
+    @media (max-width: 560px){
+
+        .categories{width: var(--size-14-5);background-color: transparent;}
+        .nasiProizvodiDiv div{
+          margin-left: 12px;
+          margin-right: 12px;
+          
+        }
+      
+       
+      }
+
+
+      @media (max-width: 480px){
+        .categories{width: var(--size-14)} 
+          
+        }
+        
+        
+        @media (max-width: 420px){
+        
+          .categories{width: auto; box-sizing: border-box; padding: 4px 0;} 
+        }

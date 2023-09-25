@@ -39,7 +39,7 @@ const smallNavLinks=<div className={`${styles.smallLinksMainDiv} ${windowWidth<9
  Pocetna
   </Link>
 
-  <Link href="/proizvodi" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
+  <Link href="/asortiman" className={styles.smallLink} onClick={()=>{setSmallMenuOpen(2)}}>
     Proizvodi
   </Link>
 
@@ -65,7 +65,7 @@ const bigNavContent =   <div className={styles.menu}>
  Pocetna
   </Link>
 
-  <Link href="/proizvodi" className={styles.smallLink}>
+  <Link href="/asortiman" className={styles.smallLink}>
     Proizvodi
   </Link>
 
