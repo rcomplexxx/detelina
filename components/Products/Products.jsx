@@ -34,7 +34,7 @@ const Products = ({ products, showAll }) => {
         </Grid>
       {!showAll && (
         <Link
-          href="/products"
+          href="/asortiman"
           className={styles.viewAllLink}
         >
          Vidi sve

@@ -1,0 +1,124 @@
+
+.mainDiv{
+    min-height: calc(100vh - 240px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 4px;
+    
+}
+
+
+.miniStoryDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    padding : var(--size-3);
+  }
+
+
+
+
+.contactInfoDiv{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: var(--size-5);
+    margin-top: var(--size-3);
+    padding-left:  var(--size-2);
+    
+  }
+  
+  .contactInput{
+    caret-color: #3b3b3b;
+    width: calc(100% - var(--size-3));
+    box-sizing: border-box;
+    
+  }
+  
+  .inputGroup{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+    box-sizing: border-box;
+  }
+  
+  
+  .messageField{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: var(--size-5);
+    padding-left:  var(--size-2);
+    padding-right:  var(--size-2);
+    box-sizing: border-box;
+  }
+  
+  .sendButton{
+    align-self: flex-start;
+    width: var(--size-9);
+    height: var(--size-6);
+    border: none;
+    border-radius: 12px;
+    color:white;
+    background-color: #202020;
+    margin-left: calc(20% + var(--size-1));
+    margin-right: var(--size-2);
+    margin-bottom: var(--size-5);
+  }
+  
+  .sendButton:hover{
+    cursor: pointer;
+  }
+
+
+
+
+  @media (max-width: 980px){
+
+    .miniStoryDiv{
+        height: var(--size-15);
+        width: 100%;
+      }
+
+  .contactInfoDiv{
+    width: calc(100% - var(--size-10));
+  }
+  
+  .messageField{
+    width: calc(100% - var(--size-10));
+  }
+  
+  .sendButton{
+    margin-left: calc(var(--size-8) + var(--size-2));
+  }
+  
+  
+  }
+
+
+  
+@media (max-width: 420px){
+
+    .contactInfoDiv{
+        width: calc(100% - var(--size-7));
+      }
+      
+      .messageField{
+        width: calc(100% - var(--size-7));
+      }
+      
+      
+      .sendButton{
+        margin-left: calc(var(--size-5) + var(--size-1));
+      }
+      
+      
+      }
