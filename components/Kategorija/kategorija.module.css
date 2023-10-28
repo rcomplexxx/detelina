@@ -34,8 +34,8 @@
   
   .title_div {
     width: 100%;
-   
-      border: none;;
+   	border-radius:8px;
+      border: none;
       box-sizing: border-box;
 
     }

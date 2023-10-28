@@ -16,7 +16,7 @@ export default function Asortiman(){
     
 
     </Kategorija>
-    <Kategorija kategorijaName='greenTea.png' name='Čajevi'>
+    <Kategorija kategorijaName='greenTea2.png' name='Čajevi'>
     <ul>
         <li>• Zeleni caj</li>
         <li>• Kamilica</li>
