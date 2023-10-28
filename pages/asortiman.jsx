@@ -1,5 +1,6 @@
 import styles from '../styles/asortiman.module.css'
 import Image from 'next/image'
+import Kategorija from '@/components/Kategorija/Kategorija'
 
 
 export default function Asortiman(){
@@ -8,30 +9,30 @@ export default function Asortiman(){
     return <div className={styles.mainDiv}><div className={styles.categories}>
     <h1 className={styles.nasiProizvodiTitle}>Nasi proizdvodi</h1>
     <div className={styles.nasiProizvodiDiv}>
-    <div className={styles.categoryDiv}><div className={styles.categoryPhoto}> <Image
-                src={`/images/greenTeaCat.png` } // Path to your image from the `public` directory
-                alt="Example Image"
-                className="object_fit_cover"
-                fill
-              /></div><p className={styles.categoryName}>Cajevi</p></div>
-    <div className={styles.categoryDiv}><div className={styles.categoryPhoto}><Image
-                src={`/images/nutsCat.png` } // Path to your image from the `public` directory
-                alt="Example Image"
-                className="object_fit_cover"
-                fill
-              /></div><p className={styles.categoryName}>Kostunavo voce</p></div>
-    <div className={styles.categoryDiv}><div className={styles.categoryPhoto}><Image
-                src={`/images/vineCat.png` } // Path to your image from the `public` directory
-                alt="Example Image"
-                className="object_fit_cover"
-                fill
-              /></div><p className={styles.categoryName}>Napitci</p></div>
-    <div className={styles.categoryDiv}><div className={styles.categoryPhoto}><Image
-                src={`/images/snacksCat.png` } // Path to your image from the `public` directory
-                alt="Example Image"
-                className="object_fit_cover"
-                fill
-              /></div><p className={styles.categoryName}>Zdravi slatkisi</p></div>
+    <Kategorija kategorijaName='nutsCat.png' name='Orašasti plodovi i kandirano voće'>
+        
+      </Kategorija>
+    <Kategorija kategorijaName='oil.png' name='Ulja, sirća, kapi i eterična ulja'>
+    
+
+    </Kategorija>
+    <Kategorija kategorijaName='greenTea.png' name='Čajevi'>
+    <ul>
+        <li>• Zeleni caj</li>
+        <li>• Kamilica</li>
+        <li>• Nana</li>
+        <li>• Cicak</li>
+        <li>• Koren koprive</li>
+        <li>• List koprive</li>
+      </ul>
+    </Kategorija>
+    <Kategorija kategorijaName='snacksCat.png' name='Slatka slana peciva i grickalice'/>
+    <Kategorija kategorijaName='pasta.png' name='Testenine'/>
+    <Kategorija kategorijaName='vineCat.png' name='Napici u prahu, sokovi, osvežavajući napici'/>
+    <Kategorija kategorijaName='oats.png' name='Žitarice i brašna'/>
+    <Kategorija kategorijaName='shampoo.png' name='Kozmetika'/>
+    <Kategorija kategorijaName='super.png' name='Super proizvodi'/>
+    <Kategorija kategorijaName='vegan.png' name='Veganski i bezglutenski proizvodi'/>
     </div>
     </div>
     </div>
