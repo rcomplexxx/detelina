@@ -70,7 +70,7 @@
       }
     }
 
-    @media (max-width: 380px){
+    @media (max-width: 480px){
       .dropDiv{
       width: var(--size-13);
       }

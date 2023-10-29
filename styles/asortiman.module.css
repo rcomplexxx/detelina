@@ -101,6 +101,7 @@
       }
 
       .categories{
+        width: calc(100vw - var(--size-6));
       }
     
        
