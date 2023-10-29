@@ -6,10 +6,11 @@ import Kategorija from '@/components/Kategorija/Kategorija'
 export default function Asortiman(){
 
 
-    return <div className={styles.mainDiv}><div className={styles.categories}>
+    return <div className={styles.centerPage}><div className={styles.mainDiv}>
+      <div className={styles.categories}>
     <h1 className={styles.nasiProizvodiTitle}>Nasi proizdvodi</h1>
     <div className={styles.nasiProizvodiDiv}>
-    <Kategorija kategorijaName='nutsCat.png' name='Orašasti plodovi i kandirano voće'>
+    <Kategorija kategorijaName='nuts.png' name='Orašasti plodovi i kandirano voće'>
         
       </Kategorija>
     <Kategorija kategorijaName='oil.png' name='Ulja, sirća, kapi i eterična ulja'>
@@ -33,6 +34,7 @@ export default function Asortiman(){
     <Kategorija kategorijaName='shampoo.png' name='Kozmetika'/>
     <Kategorija kategorijaName='super.png' name='Super proizvodi'/>
     <Kategorija kategorijaName='vegan.png' name='Veganski i bezglutenski proizvodi'/>
+    </div>
     </div>
     </div>
     </div>
