@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    text-align: center;
     height: var(--size-8);
     margin: var(--size-4);
     margin-bottom: var(--size-5);
@@ -70,9 +71,7 @@
       margin-bottom: var(--size-2);
       }
 
-      .dropDiv h2{
-        margin-bottom: var(--size-4);
-      }
+     
 
     }
 
