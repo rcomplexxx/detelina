@@ -41,7 +41,7 @@
 
   .nasiProizvodiTitle{
     margin-top: 16px;
-    margin-bottom: 16px;
+    font-size: 26px;
   }
 
   .nasiProizvodiDiv {
@@ -97,7 +97,7 @@
       .nasiProizvodiDiv {
         width:100vw;
         grid-template-columns: repeat(1, 1fr);
-       
+        margin-top: var(--size-7);
       }
 
       .categories{

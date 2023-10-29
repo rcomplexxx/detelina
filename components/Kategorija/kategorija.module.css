@@ -68,6 +68,11 @@
       .dropDiv{
       width: var(--size-13-5);
       }
+
+      .dropDiv h2{
+        margin-bottom: var(--size-3);
+      }
+
     }
 
     @media (max-width: 480px){
