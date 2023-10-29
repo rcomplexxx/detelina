@@ -14,7 +14,7 @@
     align-items: flex-start;
     height: var(--size-8);
     margin: var(--size-4);
-    margin-bottom: var(--size-6);
+    margin-bottom: var(--size-5);
     font-family: Arial, sans-serif;
     font-size: var(--font-size-4);
     font-weight: 500;
@@ -63,6 +63,18 @@
       max-height: 355px;
     }
   
+
+    @media (max-width: 600px){
+      .dropDiv{
+      width: var(--size-13-5);
+      }
+    }
+
+    @media (max-width: 380px){
+      .dropDiv{
+      width: var(--size-13);
+      }
+    }
   
     
   
